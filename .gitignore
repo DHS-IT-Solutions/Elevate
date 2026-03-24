@@ -1,0 +1,79 @@
+# DEPENDENCIES
+node_modules/
+.pnp
+.pnp.js
+
+# ENVIRONMENT VARIABLES
+.env
+.env.local
+.env.example
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+backend/.env.example
+
+# FRONTEND (Next.js)
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+
+# BACKEND (Node.js)
+backend/dist/
+backend/build/
+backend/logs/
+backend/*.log
+
+# TESTING
+coverage/
+*.coverage
+.nyc_output/
+.jest/
+
+# LOGS
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# OS FILES
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# IDE / EDITORS
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# TEMPORARY FILES
+*.tmp
+*.temp
+.cache/
+.temp/
+tmp/
+
+# DATABASE
+*.sqlite
+*.sqlite3
+*.db
+
+# MISC
+.vercel
+.turbo
+*.tsbuildinfo
+next-env.d.ts
+
+notes.txt
